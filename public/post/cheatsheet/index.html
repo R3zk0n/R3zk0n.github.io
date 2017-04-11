@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Cheatsheet &middot; Luke Symons</title>
+
+  
+  <link rel="stylesheet" href="http://example.org/css/poole.css">
+  <link rel="stylesheet" href="http://example.org/css/hyde.css">
+  <link rel="stylesheet" href="http://example.org/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://example.org/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://example.org/css/hyde-x.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://example.org/touch-icon-144-precomposed.png">
+  <link href="http://example.org/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Luke Symons</h1>
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://example.org/">Blog</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </li>
+    </ul>
+
+    
+
+    <p>Infomation Security Researcher</a><br/>
+      
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1 class="post-title">Cheatsheet</h1>
+    <span class="post-date">Apr 11, 2017 &middot; 2 minute read
+    
+    <br/>
+    <a class="label" href="http://example.org/categories/exploit">exploit</a>
+    </span>
+    <p><a href="https://raw.githubusercontent.com/osgav/osgav-source/master/content/post/cheatsheet.md">https://raw.githubusercontent.com/osgav/osgav-source/master/content/post/cheatsheet.md</a>
+
+<a href="https://osgav.run">https://osgav.run</a>
+<a href="https://osgav.run">text link</a>
+<a href="https://osgav.run" title="hoverboard">text link with hover text</a></p>
+
+<p><em>italic</em>
+<strong>bold</strong>
+<strong><em>bold italic</em></strong>
+<s>strikethrough</s></p>
+
+<p><em>italic text</em> and *escaped asterisks*</p>
+
+<p><b>bold text</b> and &lt;html&gt; tags</p>
+
+<p>&copy; special entity and <code>&amp;copy;</code> or &amp;copy; to escape a special entity</p>
+
+<blockquote>
+<p>these are</p>
+
+<p>blockquotes</p>
+</blockquote>
+
+<p>This is <code>inline preformatted text</code> and&hellip;</p>
+
+<pre><code>This is an entire
+block of preformatted
+text
+</code></pre>
+
+<p>An easier way to do a block of text:</p>
+
+<pre><code>&lt;a href=&quot;#&quot;&gt;hyperlink&lt;/a&gt;
+</code></pre>
+
+<p>There is also code highlighting&hellip;</p>
+
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">1 </span><span style="color: #AA22FF; font-weight: bold">import</span> os
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">2 </span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">3 </span>with open(<span style="color: #BB4444">&quot;log.txt&quot;</span>, <span style="color: #BB4444">&quot;r&quot;</span>) as log_handle:
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">4 </span>	log_content = log_handle.read()
+</pre></div>
+
+
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">1 </span><span style="background-color: #ffffcc"><span style="color: #AA22FF; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">os</span>
+</span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">2 </span><span style="background-color: #ffffcc"><span style="color: #AA22FF; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">json</span>
+</span><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">3 </span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">4 </span><span style="color: #AA22FF; font-weight: bold">with</span> <span style="color: #AA22FF">open</span>(<span style="color: #BB4444">&quot;log.txt&quot;</span>, <span style="color: #BB4444">&quot;r&quot;</span>) <span style="color: #AA22FF; font-weight: bold">as</span> log_handle:
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">5 </span>	log_content <span style="color: #666666">=</span> log_handle<span style="color: #666666">.</span>read()
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">6 </span><span style="background-color: #ffffcc">	log_json <span style="color: #666666">=</span> json<span style="color: #666666">.</span>load(log_content)
+</span></pre></div>
+
+
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>&lt;<span style="color: #008000; font-weight: bold">a</span> <span style="color: #BB4444">href</span><span style="color: #666666">=</span><span style="color: #BB4444">&quot;#&quot;</span>&gt;hallo&lt;/<span style="color: #008000; font-weight: bold">a</span>&gt;
+</pre></div>
+
+
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="background-color: #ffffcc">    <span style="color: #008800; font-style: italic">#!/usr/bin/python</span>
+</span><span style="background-color: #ffffcc">    <span style="color: #AA22FF; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">os</span>
+</span><span style="background-color: #ffffcc">    <span style="color: #AA22FF; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">json</span>
+</span><span style="background-color: #ffffcc">    <span style="color: #AA22FF; font-weight: bold">print</span> <span style="color: #BB4444">&quot;this is python formatting&quot;</span>
+</span><span style="background-color: #ffffcc">    <span style="color: #AA22FF; font-weight: bold">print</span> <span style="color: #BB4444">&quot;but it doesn&#39;t seem to work&quot;</span>
+</span></pre></div>
+
+
+<p>Python highlighting doesn&rsquo;t seem too great though&hellip;</p>
+
+<hr />
+
+<p>horizontal rulez</p>
+
+<hr />
+
+<p>embed a tweet!</p>
+
+<p><a href="https://twitter.com/spf13/status/666616452582129664">https://twitter.com/spf13/status/666616452582129664</a></p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.15 will have 30%+ faster render times thanks to this commit <a href="https://t.co/FfzhM8bNhT">https://t.co/FfzhM8bNhT</a>  <a href="https://twitter.com/hashtag/gohugo?src=hash">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> <a href="https://t.co/ITbMNU2BUf">https://t.co/ITbMNU2BUf</a></p>&mdash; Steve Francia (@spf13) <a href="https://twitter.com/spf13/status/666616452582129664">November 17, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<hr />
+
+
+<figure >
+    
+        <img src="/images/zerodots_wordle.png" />
+    
+    
+    <figcaption>
+        <h4>zerdots wordle</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<hr />
+
+<p><img src="/images/zerodots_wordle.png" alt="rest in peace" title="rip" /></p>
+
+<hr />
+
+<p>how about a list?</p>
+
+<ul>
+<li>unordered lists can use</li>
+<li>1 of 3 different symbols</li>
+<li>they are + * -</li>
+</ul>
+
+<p>new list!</p>
+
+<ol>
+<li>Numbered lists use numbers</li>
+<li>But they don&rsquo;t need to continue using numbers</li>
+<li>+ * - or another number will do the trick</li>
+<li>while keeping the numbering correct for you&hellip;</li>
+</ol>
+
+<hr />
+
+<p>Tables can be done in markdown and you can also use <code>HTML</code> tables:</p>
+
+<table>
+<thead>
+<tr>
+<th>First header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h1 id="header-1">header 1</h1>
+
+<h2 id="header-2">header 2</h2>
+
+<h3 id="header-3">header 3</h3>
+
+<h4 id="header-4">header 4</h4>
+
+<h5 id="header-5">header 5</h5>
+
+<h6 id="header-6">header 6</h6>
+
+<hr />
+
+<h1 id="huge-header">huge header</h1>
+
+<h2 id="smaller-header">smaller header</h2>
+
+<hr />
+  </div>
+  
+</div>
+
+
+
+
+
+</body>
+</html>
+

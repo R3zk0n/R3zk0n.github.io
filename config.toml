@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hyde-x"
+pygmentsuseclasses = false
+pygmentsstyle = "emacs"
+pageinate = 10
+
+[author]
+  name = "Luke Symons"
+
+[taxonomies]
+
+[paras]
+  truncate = true
